@@ -24,30 +24,33 @@ namespace TrabajoFinal
                 //Llenando la matriz con cada uno de los datos
                 Console.WriteLine($"Ingrese el nombre del usuario {i + 1}");
                 NombreCliente = Console.ReadLine();
-                InfoGestionClientes[i, 0] = NombreCliente;
+                InfoGestionClientes[i, 0] = NombreCliente; //Se llena el nombre en la matriz, ingresada por el usuario
 
 
                 Console.WriteLine($"Ingrese su número de cédula para el usuario {i + 1}");
                 CedulaCliente = (Console.ReadLine());
-                InfoGestionClientes[i, 1] = CedulaCliente;
+                InfoGestionClientes[i, 1] = CedulaCliente; //Se llena la cedula, ingresada por el usuario
                 Console.WriteLine($"Ingrese su número telefónico para el usuario {i + 1}");
                 TelefonoCliente = Console.ReadLine();
-                InfoGestionClientes[i, 2] = TelefonoCliente;
+                InfoGestionClientes[i, 2] = TelefonoCliente; //Se llena el telefono, ingresado por el usuario
                 Console.WriteLine("¿Desea ingresar otro cliente? En tal caso ingrese 1");
                 Console.WriteLine("En el caso de que no, ingrese 2");
                 Continuar = Int32.Parse(Console.ReadLine());
-                if (Continuar == 1 && i == InfoGestionClientes.GetLength(0)-1)
+                if (Continuar == 1 && i == InfoGestionClientes.GetLength(0)-1) //En ek caso de que el cliente quiera continuar ingresando clientes, pero la matriz ya ha llegado a su máximo
                 {
+                    //Le avisará al cliente que ya ha llegado a su máximo de clientes
                     Console.WriteLine("Llegó al número máximo de clientes");
                     return InfoGestionClientes;
                 }
                 else if (Continuar == 1)
                 {
-                    //Si ingresa el numero 1, se cumple la condición y el for continua su proceso
+                    //Si ingresa el numero 1, se cumple la condición y el for continua su proceso para llenar la matriz
                 }
                 else
                 {
-                    //En el caso de que ingrese el numero 2, el ciclo for se rompe, y la matriz se llena, poniendo de todas formas el for para que haya un máximo de clientes
+                    //En el caso de que ingrese el numero 2, el ciclo for se rompe, y la matriz se llena
+                    //Poniendo de todas formas el for para que haya un máximo de clientes
+                    //
                     return InfoGestionClientes;
                 }
             }
@@ -87,7 +90,7 @@ namespace TrabajoFinal
                             {
                                 switch (ColumnaParaCambiar)
                                 {
-                                    case 'n':
+                                    case 'n': //Caso de que quiera modificar el nombre
                                         Console.WriteLine("Ingrese el nuevo nombre");
                                         NuevosDatos = Console.ReadLine();
                                         InfoGestionClientes[PosicionPorModificar, 0] = NuevosDatos;
@@ -110,7 +113,7 @@ namespace TrabajoFinal
                                         {
                                             return InfoGestionClientes;
                                         }
-                                    case 'c':
+                                    case 'c': //Caso de que quiera modificar la cédula
                                         Console.WriteLine("Ingrese la nueva cédula");
                                         NuevosDatos = Console.ReadLine();
                                         InfoGestionClientes[PosicionPorModificar, 1] = NuevosDatos;
@@ -133,7 +136,7 @@ namespace TrabajoFinal
                                         {
                                             return InfoGestionClientes;
                                         }
-                                    case 't':
+                                    case 't': //Caso de que quiera modificar el teléfono
                                         Console.WriteLine("Ingrese el nuevo telefono");
                                         NuevosDatos = Console.ReadLine();
                                         InfoGestionClientes[PosicionPorModificar, 2] = NuevosDatos;
@@ -164,14 +167,14 @@ namespace TrabajoFinal
                             }
                             break;
                         }
-                        else
+                        else //En el caso de que se haya buscado el nombre en la matriz y no se encuentre en el sistema
                         {
                             Console.WriteLine("La cédula que ingresó no se encuentra en el sistema");
                             Console.WriteLine("Ingrese a para ingresar la cédula nuevamente o presione x para salir");
                             ContinuarModificacion = Console.ReadLine();
-                            if (ContinuarModificacion == "a") ;
-                            break;
-                            //Si la persona ingresa la a
+                            //if (ContinuarModificacion == "x") ;
+                            //break;
+                            //Si la persona ingresa la x
                             //se saldrá del else
                             //el ciclo se repetirá
                             //y le dirá a la persona que ingrese otra vez la cédula y la volverá a buscar
@@ -200,6 +203,29 @@ namespace TrabajoFinal
                 {
                     return InfoGestionClientes;
                 }
+            }
+            return InfoGestionClientes;
+        }
+        static string[,] MostrarListaClientes1(string[,] InfoGestionClientes)
+        {
+            int MostrarListaClientes = 0;
+            Console.WriteLine("¿Desea mostrar la lista de clientes?");
+            Console.WriteLine("Ingrese 2 si desea mostrar la lista de clientes");
+            Console.WriteLine("Ingrese 1 si desea volver al menú principal");
+            MostrarListaClientes = Int32.Parse(Console.ReadLine());
+            if (MostrarListaClientes == 2)
+            {
+                for (int i = 0; i < InfoGestionClientes.GetLength(0); i++)
+                {
+                    for (int j = 0; j < InfoGestionClientes.GetLength(1); j++)
+                    {
+                        Console.WriteLine(InfoGestionClientes[i, j]);
+                    }
+                }
+            }
+            else
+            {
+                return InfoGestionClientes;
             }
             return InfoGestionClientes;
         }
