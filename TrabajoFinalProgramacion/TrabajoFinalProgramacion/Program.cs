@@ -5,14 +5,13 @@ namespace TrabajoFinal
     {
         static void Main(string[] args)
         {
-            string[,] InformacionClientes = new string[15, 3];
-            InformacionClientes = GestionClientes();
+            IngresarClientes();
         }
         static void GestionVehiculo()
         {
-            //Parte de Isabela
+          
         }
-        static string[,] GestionClientes()
+        static string[,] IngresarClientes()
         {
             string[,] InfoGestionClientes = new string[15, 3]; //tres columnas - una representando los telefonos, los nombres y los clientes
             //15 filas, ya que representan cada cliente
@@ -40,6 +39,7 @@ namespace TrabajoFinal
                 if (Continuar == 1 && i == InfoGestionClientes.GetLength(0)-1)
                 {
                     Console.WriteLine("Llegó al número máximo de clientes");
+                    return InfoGestionClientes;
                 }
                 else if (Continuar == 1)
                 {
@@ -48,9 +48,13 @@ namespace TrabajoFinal
                 else
                 {
                     //En el caso de que ingrese el numero 2, el ciclo for se rompe, y la matriz se llena, poniendo de todas formas el for para que haya un máximo de clientes
-                    break;
+                    return InfoGestionClientes;
                 }
             }
+            return InfoGestionClientes;
+        }
+        static string[,] ModificarCliente(string[,] InfoGestionClientes)
+        {
             int ModificarInformacion = 0; //La variable para saber si deseo modificar información
             int MostrarListaClientes = 0;
             Console.WriteLine("¿Desea modificar información? En el caso de que sí ingrese 3");
@@ -165,7 +169,7 @@ namespace TrabajoFinal
                             Console.WriteLine("La cédula que ingresó no se encuentra en el sistema");
                             Console.WriteLine("Ingrese a para ingresar la cédula nuevamente o presione x para salir");
                             ContinuarModificacion = Console.ReadLine();
-                            if (ContinuarModificacion == "a");
+                            if (ContinuarModificacion == "a") ;
                             break;
                             //Si la persona ingresa la a
                             //se saldrá del else
@@ -188,7 +192,7 @@ namespace TrabajoFinal
                     {
                         for (int j = 0; j < InfoGestionClientes.GetLength(1); j++)
                         {
-                            Console.WriteLine(InfoGestionClientes[i,j]);
+                            Console.WriteLine(InfoGestionClientes[i, j]);
                         }
                     }
                 }
