@@ -1,0 +1,14 @@
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\bin\Debug\net9.0\Gestión de mantenimiento.exe
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\bin\Debug\net9.0\Gestión de mantenimiento.deps.json
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\bin\Debug\net9.0\Gestión de mantenimiento.runtimeconfig.json
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\bin\Debug\net9.0\Gestión de mantenimiento.dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\bin\Debug\net9.0\Gestión de mantenimiento.pdb
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\Gestión de mantenimiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\Gestión de mantenimiento.AssemblyInfoInputs.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\Gestión de mantenimiento.AssemblyInfo.cs
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\Gestión de mantenimiento.csproj.CoreCompileInputs.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\Gestión de mantenimiento.dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\refint\Gestión de mantenimiento.dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\Gestión de mantenimiento.pdb
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\Gestión de mantenimiento.genruntimeconfig.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de mantenimiento\Gestión de mantenimiento\obj\Debug\net9.0\ref\Gestión de mantenimiento.dll
