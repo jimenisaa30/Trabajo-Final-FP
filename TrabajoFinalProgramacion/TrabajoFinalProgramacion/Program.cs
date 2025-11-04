@@ -7,9 +7,55 @@ namespace TrabajoFinal
         {
             IngresarClientes();
         }
-        static void GestionVehiculo()
+        static void GestionVehiculos()
         {
-          
+            //1.Registrar un nuevo vehículo(marca, modelo, placa, año)-matriz del vehículo
+            //2.Ver lista de vehículos registrados-mostrar matriz
+            //3.Editar información de un vehículo(buscar por número de placa)- Modificar la matriz
+            //4.Asignar vehículo a un cliente- conectar matriz con cliente
+            //5.Ver vehículos de un cliente específico
+            //6.Salir de Gestión de vehículos(volver al Menú principal)-salir de la función
+
+            //1
+            string[,] ListaVehiculos = new string[20, 4];//matriz de 20 vehiculos(filas) y 4 columnas(ma,mo,p,a)
+            string[,] ListaVehiculoCliente = new string[15, 4]; //matriz de vehículo por cliente se conecta la matriz de clientes a la de los vehículos
+            string MarcaIngresada; //Marca de vehículo ingresada por el usuario
+            string ModeloIngresado; //Modelo de vehículo ingresado por el usuario
+            string PlacaIngresada; //Placa de vehículo ingresado por el usuario
+            string AñoVehiculoIngresado; //Año del vehículo ingresado por el usuario
+            int ContinuarIngresando = 0; //Variable para seguir ingresando vehículos
+            for (int i = 0; i < ListaVehiculos.Length; i++) //Definir el máximo de vehículos que se pueden ingresar
+            {
+                do
+                {
+                    Console.WriteLine("Ingrese la placa del vehículo");
+                    PlacaIngresada = Console.ReadLine();
+                    Console.WriteLine("Ingrese la marca del vehículo");
+                    MarcaIngresada = Console.ReadLine();
+                    Console.WriteLine("Ingrese el modelo del vehículo");
+                    ModeloIngresado = Console.ReadLine();
+                    Console.WriteLine("Ingrese el año del vehículo");
+                    AñoVehiculoIngresado = Console.ReadLine();
+                    Console.WriteLine("¿Desea seguir ingresando vehículos?");
+                    Console.WriteLine("Ingrese 1 en el caso de que sí");
+                    ContinuarIngresando = Int32.Parse(Console.ReadLine());
+                    if (ContinuarIngresando == 1 && i == ListaVehiculos.GetLength(0) - 1)
+                    {
+                        Console.WriteLine("No se pueden ingresar más vehículos");
+                    }
+                    else if (ContinuarIngresando == 1)
+                    {
+
+                    }
+                    else
+                    {
+                        break;
+                    }
+
+                }
+                while (ContinuarIngresando == 1);
+            }
+            //3- Modificar la información de los vehículos
         }
         static string[,] IngresarClientes()
         {
@@ -229,14 +275,101 @@ namespace TrabajoFinal
             }
             return InfoGestionClientes;
         }
-        static void GestionMantenimientoVehiculos() 
+        static void ServiciosMantenimiento()
         {
-            //Registrar vehículos
-            //Ver lista de vehículos
-            //Editar información del vehículo
-            //Asignar vehículo a un cliente
-            //Ver vehículo clientes
-            //Crear una matriz donde una de las filas del cliente sea de las filas del vehículo, es decir la unión de ambos
+
+            string[,] servicios = new string[5, 4]; //Matriz de servicios
+            int contador = 0;
+            bool salir = false;
+
+            while (salir = false)
+            {
+                Console.WriteLine("Selecciona la opcion que requieras para registrar el vehículo");
+                Console.WriteLine("1. Seleccionar vehículo");
+                Console.WriteLine("2. Ingresar tipo de servicio");
+                Console.WriteLine("3. Ingresar fecha y costo");
+                Console.WriteLine("4. Salir");
+
+
+                int opcion = int.Parse(Console.ReadLine());
+
+                switch (opcion)
+                {
+                    case 1:
+                        Console.WriteLine("Esta función de encuentra en otro programa... será agregada próximamente"); //Completar esta parte del código llamando la función desde gestión de vehículos
+                        break;
+
+                    case 2:
+                        if (contador < 5)
+                        {
+                            if (servicios[contador, 0] == null)
+                            {
+                                Console.WriteLine("Primero debe ingresar un vehículo.");
+                            }
+                            else
+                            {
+                                Console.Write("Ingrese el tipo de servicio (ej. cambio de aceite, alineación): ");
+                                servicios[contador, 1] = Console.ReadLine();
+                                Console.WriteLine("Servicio registrado.");
+                            }
+                        }
+                        break;
+
+                    case 3:
+                        if (contador < 5)
+                        {
+                            if (servicios[contador, 0] == null || servicios[contador, 1] == null)
+                            {
+                                Console.WriteLine("Debe ingresar primero el vehículo y el servicio.");
+                            }
+                            else
+                            {
+                                Console.Write("Ingrese la fecha (dd/mm/aaaa): ");
+                                servicios[contador, 2] = Console.ReadLine();
+
+                                Console.Write("Ingrese el costo: ");
+                                servicios[contador, 3] = Console.ReadLine();
+
+                                Console.WriteLine("Registro completo guardado exitosamente.");
+                                contador++;
+                            }
+                        }
+                        break;
+
+                    case 4:
+                        salir = true;
+                        Console.WriteLine("Saliendo del programa...");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opción no válida, intente de nuevo.");
+                        break;
+                }
+
+                if (salir = false)
+                {
+                    Console.WriteLine("\nPresione una tecla para continuar...");
+                    Console.ReadKey();
+                }
+            }
+
+        }
+        static void HistorialServicios()
+        {
+            //Llamar la matriz de registro de vehiculos para encontrar el vehículo
+        }
+        static void ResumenServiciosGeneral()
+        {
+            string[,] servicios = new string[5, 4]; //Matriz de servicios
+            int contador = 0;
+            bool salir = false;
+
+            Console.WriteLine("\n=== RESUMEN GENERAL DE REGISTRO DE SERVICIOS ===");
+            for (int i = 0; i < contador; i++)
+            {
+                Console.WriteLine($"Vehículo: {servicios[i, 0]} | Servicio: {servicios[i, 1]} | Fecha: {servicios[i, 2]} | Costo: ${servicios[i, 3]}");
+            }
+
         }
     }
 }
