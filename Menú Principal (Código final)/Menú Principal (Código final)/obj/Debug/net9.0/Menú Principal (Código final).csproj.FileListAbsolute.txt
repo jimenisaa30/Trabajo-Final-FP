@@ -1,0 +1,14 @@
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\bin\Debug\net9.0\Menú Principal (Código final).exe
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\bin\Debug\net9.0\Menú Principal (Código final).deps.json
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\bin\Debug\net9.0\Menú Principal (Código final).runtimeconfig.json
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\bin\Debug\net9.0\Menú Principal (Código final).dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\bin\Debug\net9.0\Menú Principal (Código final).pdb
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\Menú Principal (Código final).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\Menú Principal (Código final).AssemblyInfoInputs.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\Menú Principal (Código final).AssemblyInfo.cs
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\Menú Principal (Código final).csproj.CoreCompileInputs.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\Menú Principal (Código final).dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\refint\Menú Principal (Código final).dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\Menú Principal (Código final).pdb
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\Menú Principal (Código final).genruntimeconfig.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Menú Principal (Código final)\Menú Principal (Código final)\obj\Debug\net9.0\ref\Menú Principal (Código final).dll
