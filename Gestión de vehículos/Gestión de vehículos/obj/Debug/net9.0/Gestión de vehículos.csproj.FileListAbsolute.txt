@@ -1,0 +1,14 @@
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\bin\Debug\net9.0\Gestión de vehículos.exe
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\bin\Debug\net9.0\Gestión de vehículos.deps.json
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\bin\Debug\net9.0\Gestión de vehículos.runtimeconfig.json
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\bin\Debug\net9.0\Gestión de vehículos.dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\bin\Debug\net9.0\Gestión de vehículos.pdb
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\Gestión de vehículos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\Gestión de vehículos.AssemblyInfoInputs.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\Gestión de vehículos.AssemblyInfo.cs
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\Gestión de vehículos.csproj.CoreCompileInputs.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\Gestión de vehículos.dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\refint\Gestión de vehículos.dll
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\Gestión de vehículos.pdb
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\Gestión de vehículos.genruntimeconfig.cache
+C:\Users\Isa\Desktop\Trabajo Final Prog\Gestión de vehículos\Gestión de vehículos\obj\Debug\net9.0\ref\Gestión de vehículos.dll
