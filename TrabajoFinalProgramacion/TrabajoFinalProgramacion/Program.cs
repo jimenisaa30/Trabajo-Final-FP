@@ -5,6 +5,10 @@ namespace TrabajoFinal
     {
         static void Main(string[] args)
         {
+
+        }
+        static void MenuPrincipal()
+        {
             int opcionesDelMenu;
             Console.WriteLine("Ingrese la opción que quiera hacer");
             Console.WriteLine("1 para ingresar vehículo");
@@ -38,6 +42,7 @@ namespace TrabajoFinal
                     break;
 
                 }
+
         }
         static void GestionVehiculos()
         {
