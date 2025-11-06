@@ -266,8 +266,6 @@
                 Console.WriteLine($"Ingrese el nombre del usuario {i + 1}");
                 NombreCliente = Console.ReadLine();
                 InfoGestionClientes[i, 0] = NombreCliente; //Se llena el nombre en la matriz, ingresada por el usuario
-
-
                 Console.WriteLine($"Ingrese su número de cédula para el usuario {i + 1}");
                 CedulaCliente = (Console.ReadLine());
                 InfoGestionClientes[i, 1] = CedulaCliente; //Se llena la cedula, ingresada por el usuario
@@ -277,12 +275,11 @@
                 Console.WriteLine("¿Desea ingresar otro cliente? En tal caso ingrese 1");
                 Console.WriteLine("En el caso de que no, ingrese 2");
                 Continuar = Int32.Parse(Console.ReadLine());
-                if (Continuar == 1 && i == InfoGestionClientes.GetLength(0) - 1) //En ek caso de que el cliente quiera continuar ingresando clientes, pero la matriz ya ha llegado a su máximo
+                if (Continuar == 1 && i == InfoGestionClientes.GetLength(0) - 1) //En elcaso de que el cliente quiera continuar ingresando clientes, pero la matriz ya ha llegado a su máximo
                 {
                     //Le avisará al cliente que ya ha llegado a su máximo de clientes
                     Console.WriteLine("Llegó al número máximo de clientes");
-                    Console.WriteLine("¿Desea visualizar la lista? Para verla presione 3");
-                    Continuar = Int32.Parse(Console.ReadLine());
+                    GestionClientes();
 
                     if (Continuar == 3)//VERIFICAR INFO (FUNCIONALIDAD)
                     {

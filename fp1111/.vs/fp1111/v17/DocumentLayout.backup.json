@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\Trabajo-Final-FP\\fp1111\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D382B2F9-2CCE-49F3-BE78-A2A098952E58}|fp1111\\fp1111.csproj|c:\\users\\acer\\desktop\\trabajo-final-fp\\fp1111\\fp1111\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D382B2F9-2CCE-49F3-BE78-A2A098952E58}|fp1111\\fp1111.csproj|solutionrelative:fp1111\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Trabajo-Final-FP\\fp1111\\fp1111\\Program.cs",
+              "RelativeDocumentMoniker": "fp1111\\Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Trabajo-Final-FP\\fp1111\\fp1111\\Program.cs",
+              "RelativeToolTip": "fp1111\\Program.cs",
+              "ViewState": "AgIAABUCAAAAAAAAAAAAABUCAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T20:42:26.955Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
